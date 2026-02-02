@@ -1,6 +1,6 @@
 {% set name = "clang-format-docs" %}
 {% set name_underscore = "clang_format_docs" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -8,7 +8,7 @@ package:
 
 source:
   url: "https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name_underscore }}-{{ version }}.tar.gz"
-  sha256: f8732874b99cecd238665c17a8e9fda3edd875638ce56de545c7ecd6c341ee3d
+  sha256: a9153ed21d4967a2f848e47e10cd48f1ad1f866415c606850cec46e7392f64c2
 
 build:
   number: 0
